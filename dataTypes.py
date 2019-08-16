@@ -31,3 +31,12 @@ print(len(list3))
 
 #tuple
 # They do not allow you to change their values
+
+tuple1 = tuple(list3)
+
+# set
+set_new = set([1,2,3,4,4,4,4,4,4,4,4,5,5,5,5,5,])
+
+dict1 = {"A":123,"B":"the"}
+dict1["B"]
+dict1["c"] = 100
