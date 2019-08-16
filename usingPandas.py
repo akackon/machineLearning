@@ -15,3 +15,5 @@ print(df.describe())
 print(df["satisfaction_level"])
 df2 = df[["satisfaction_level","salary","sales"]]
 print(df2)
+
+print(df.sort_values(["impact","number_project"], ascending = [0,1]))
