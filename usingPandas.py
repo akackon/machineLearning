@@ -16,4 +16,10 @@ print(df["satisfaction_level"])
 df2 = df[["satisfaction_level","salary","sales"]]
 print(df2)
 
-print(df.sort_values(["impact","number_project"], ascending = [0,1]))
+# print(df.sort_values(["impact","number_project"], ascending = [0,1]))
+
+# Merge, Join, Concat and pivot
+
+# merge
+left = df
+right = df.groupby(["sales"],as_index=False)["satisfaction_level"].mean
