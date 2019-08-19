@@ -30,15 +30,21 @@ import numpy as np
 
 # Commenting the above lines because it makes the running of the code below long to get to
 
-x = np.arange(1,7,1)
-y = np.random.randint(50,100,6)
-print(x)
-print(y)
-xlist = ["Sem1", "Sem2", "Sem3", "Sem4", "Sem5", "Sem6"]
-plt.xticks(x,xlist)
-plt.title("Overall College Performance")
-plt.ylabel("Percentage")
-plt.xlabel("Semesters")
-plt.plot(x,y,"b^")
-plt.plot(x,y,"red")
-plt.show()
+# x = np.arange(1,7,1)
+# y = np.random.randint(50,100,6)
+# print(x)
+# print(y)
+# xlist = ["Sem1", "Sem2", "Sem3", "Sem4", "Sem5", "Sem6"]
+# plt.xticks(x,xlist)
+# plt.title("Overall College Performance")
+# plt.ylabel("Percentage")
+# plt.xlabel("Semesters")
+# plt.plot(x,y,"b^")
+# plt.plot(x,y,"red")
+# plt.show()
+
+# Commenting the above lines because it makes the running of the code below long to get to
+
+
+# Working with histograms
+print(df.shape)
