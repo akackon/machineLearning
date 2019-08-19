@@ -47,4 +47,4 @@ import numpy as np
 
 
 # Working with histograms
-print(df.shape)
+# print(df.shape)
