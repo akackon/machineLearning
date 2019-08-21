@@ -33,3 +33,8 @@ print(df.columns)
 # Numeric and Categorical Variable Exploration
 print(df.groupby(["salary"])["satisfaction_level"].mean().plot(kind = "bar"))
 plt.show()
+
+print(df.corr())
+
+plt.scatter(df["number_project"],df["time_spend_company"])
+plt.show()
