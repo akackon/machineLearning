@@ -27,3 +27,9 @@ print(df["sales"].unique())
 print(df["salary"].unique())
 pd.crosstab(df["sales"],df["salary"]).plot(kind = "bar", stacked = True)
 plt.show()
+
+print(df.columns)
+
+# Numeric and Categorical Variable Exploration
+print(df.groupby(["salary"])["satisfaction_level"].mean().plot(kind = "bar"))
+plt.show()
